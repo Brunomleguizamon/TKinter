@@ -23,8 +23,8 @@ l2 = Label(root, text='Chau mundo! segunda etiqueta')
 
 # Otra manera de mostrar nuestra etiqueta es con .grid() el cual usa un sistema de grilla
 l1.grid(row=0, column=0)
-l2.grid(row=0, column=1)
+l2.grid(row=1, column=1)
 
-# Instruccion para que Tk se quede escuchando a posibles cambios
+# Llamado para que Tk se quede escuchando a posibles cambios
 root.mainloop()
 

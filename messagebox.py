@@ -31,7 +31,6 @@ def click2():
         messagebox.showinfo('Popup', 'Seleccionaste Ok')
     else:
         messagebox.showinfo('Popup', 'Seleccionaste Cancelar')
-
 def click3():
     # Pregunta ok cancel este devuelve True o False
     # esta devuelve un Boolean
